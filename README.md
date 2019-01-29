@@ -1,7 +1,5 @@
 # A Digital Dictionary
-David Stevens<br>
-DXC Distinguished Architect<br>
-DXC Technology Office<br>
+David Stevens | DXC Distinguished Architect | DXC Technology Office<br>
 
 ---
 
@@ -24,7 +22,7 @@ The first implementation within DXC Digital Explorer is fairly simple; a match a
 1. Digital Industry Trends
 1. Technology Trends
 
-Simple put it's  `lower(document.text) CONTAINS lower(IndustryName)` etc.
+Simply put it's  `lower(document.text) CONTAINS lower(IndustryName)` etc.
 
 This results in a very valuable set of information from each uploaded document.  The diagram below is the results of a very simple slide uploaded into the module.
 
@@ -41,13 +39,13 @@ This is just the first implementation of this new feature; extended use cases we
 
 1. recommendation based on extracted content (solutions & people)
 1. similarity between a "request" and a "response"
+1. Extending the match against a richer graph network - see below
 
 
-### Challenges raised
+### Matching against a richer graph network
 A Digital dictionary brings initial high value, but what is already apparent is the need for a digital thesaurus.  The Digital Explorer platform currently uses [WordNet](https://wordnet.princeton.edu/) to help with the similarity matching within it's search engine; however the simple similarity between words in the English language is not enough for a wider range of industry use cases; for example the means to extract "IAAS" from a document and find and connect to "Infrastructure as a Service" or even "Cloud Computing".   Extend this further and given the need for industry focused solution further ontologies are required
 
 [DIAGRAM OF THE ONTOLOGY LAYERS]
-
 
 ----
 #### Reference work
