@@ -37,8 +37,8 @@ This results in a very valuable set of information from each uploaded document. 
 ## Further use cases
 This is just the first implementation of this new feature; extended use cases we are reviewing
 
-1. recommendation based on extracted content (solutions & people)
-1. similarity between a "request" and a "response"
+1. Recommendation based on extracted content (solutions & people)
+1. Similarity between a "request" and a "response" (see community detection blog post)[https://englishsid.github.io/GraphCommunityDetection/]
 1. Extending the match against a richer graph network - see below
 
 
@@ -56,3 +56,4 @@ A Digital dictionary brings initial high value, but what is already apparent is 
 [5] [another view of a resume Dec 2017 D Stevens](https://aginggeekblog.wordpress.com/2017/12/13/breaking-down-my-cv/)<br>
 [6] [Breaking down my DXC tech honour's application Jan 2018 D Stevens](https://aginggeekblog.wordpress.com/2018/01/06/tech-honors-breakdown/)<br>
 [7] [DXC RFI Analytics project Nov 2018 Augys, Chastney, Rogers, Stevens :lock: _internal DXC project_](https://github.dxc.com/MyDXCGraph/RFPAnalytics)<br>
+[8] [DXC Digital Skills Analyse Jan 2019 Rogers, Stevens :lock: _internal DXC project_](https://github.dxc.com/MyDXCGraph/DXCSkills)
