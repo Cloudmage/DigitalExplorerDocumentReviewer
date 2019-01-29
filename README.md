@@ -26,12 +26,15 @@ The first implementation within DXC Digital Explorer is fairly simple; a match a
 
 Simple put it's  `lower(document.text) CONTAINS lower(IndustryName)` etc.
 
-This results in a very valuable set of information from each uploaded document.
+This results in a very valuable set of information from each uploaded document.  The diagram below is the results of a very simple slide uploaded into the module.
 
+![image](images/simpleSlide.png)<br>
 ![image](images/legend.png)<br>
 ![image](images/graphView.png)<br>
 
-Note from the diagram we are also counting and storing the number of times the match is made; this will allow us to do more with the information in a future release.
+**Notes**
+- The payments block isn't included within the analyse as there are no matching industries, business areas or trends.    If the industry was _Banking_, then the analyses would have included payments as a matching business area.
+- not shown in the diagram but we are also counting and storing the number of times the match is made within the 'REFERENCES' relationship.  This will allow us to do more with the information in a future release.
 
 ## Further use cases
 This is just the first implementation of this new feature; extended use cases we are reviewing
