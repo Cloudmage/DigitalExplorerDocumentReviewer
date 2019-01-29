@@ -1,7 +1,7 @@
 # A Digital Dictionary
-David Stevens
-DXC Distinguished Architect
-DXC Technology Office
+David Stevens<br>
+DXC Distinguished Architect<br>
+DXC Technology Office<br>
 
 ---
 
